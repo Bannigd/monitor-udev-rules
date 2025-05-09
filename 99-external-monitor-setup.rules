@@ -1,0 +1,3 @@
+# run script on external monitor connection
+
+ACTION=="change", SUBSYSTEM=="drm", ENV{HOTPLUG}=="1", RUN+="/home/dastarikov/probe/monitor-udev-rules/display-switch.sh"
