@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # for testing
-#exec >>/tmp/script.log 2>&1
-#set -xu
+# exec >>/home/dastarikov/probe/monitor-udev-rules/log.txt 2>&1
+# set -xu
+
+sleep 1 # otherwise pc doesn't see connected monitor
 
 # export enviroment variables to be able to work with displays
 export XAUTHORITY=/home/dastarikov/.Xauthority
